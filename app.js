@@ -19,7 +19,7 @@ function validateZip(){
   if(!re.test(zip.value)){
     zip.classList.add('is-invalid');
   }else{
-    zip.classList.remove('is-invalid');
+    zip.classList.remove('is-invald');
   }
 
 }
